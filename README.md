@@ -2,7 +2,7 @@
 
 플레이어는 색깔이 있는 액체를 올바른 시험관에 정렬해서 높은 점수를 얻는 게임입니다.
 
-실행주소1 : https://liquid-sort.vercel.app/
+실행주소1 : https://sigco3111.github.io/liquid-sort/
 
 실행주소2 : https://dev-canvas-pi.vercel.app/
 
