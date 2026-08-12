@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 튜브 모양 기본 -->
+  <rect x="8" y="5" width="16" height="22" rx="3" fill="#a5b4fc" />
+  
+  <!-- 튜브 입구 -->
+  <rect x="8" y="2" width="16" height="4" rx="1" fill="#e0e7ff" />
+  
+  <!-- 튜브 내부 색상 (물체) -->
+  <rect x="10" y="15" width="12" height="10" rx="1" fill="#4f46e5" />
+  <rect x="10" y="9" width="12" height="5" rx="1" fill="#8b5cf6" />
+  
+  <!-- 튜브 반사광 효과 -->
+  <rect x="10" y="5" width="2" height="20" rx="1" fill="white" opacity="0.2" />
+</svg> 
