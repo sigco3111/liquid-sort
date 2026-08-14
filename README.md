@@ -2,9 +2,9 @@
 
 플레이어는 색깔이 있는 액체를 올바른 시험관에 정렬해서 높은 점수를 얻는 게임입니다.
 
-실행주소1 : https://sigco3111.github.io/liquid-sort/
+라이브 데모 : https://sigco3111.github.io/liquid-sort/
 
-실행주소2 : https://dev-canvas-pi.vercel.app/
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-222222?style=for-the-badge&logo=githubpages)](https://sigco3111.github.io/liquid-sort/)
 
 ## ✨ 주요 기능
 
@@ -48,22 +48,34 @@
 
 ## 🚀 시작하기
 
-이 프로젝트는 별도의 빌드 과정 없이 바로 실행할 수 있습니다.
+### GitHub Pages에서 빌드/실행
+
+이 저장소는 esm.sh CDN 의존성으로 빌드 없이 작동하지만, GitHub Pages에서는 `vite.config.ts`의 `base: '/liquid-sort/'`가 적용된 빌드 결과가 서빙됩니다.
+
+```bash
+npm install
+npm run build
+npx gh-pages -d dist
+```
+
+### 로컬 개발 (Vite)
 
 1.  **저장소 복제(Clone)**:
     ```bash
-    git clone https://github.com/your-username/liquid-sort-game.git
-    cd liquid-sort-game
+    git clone https://github.com/sigco3111/liquid-sort.git
+    cd liquid-sort
     ```
 
-2.  **로컬 서버로 실행**:
-    간단한 HTTP 서버를 사용하여 프로젝트를 실행합니다. `npx`를 이용하면 별도 설치 없이 바로 실행할 수 있습니다.
-
+2.  **개발 서버 실행**:
     ```bash
-    npx serve
+    npm install
+    npm run dev          # http://localhost:5173
     ```
 
-3.  **브라우저에서 열기**:
-    터미널에 표시된 URL(보통 `http://localhost:3000`)을 웹 브라우저에서 엽니다.
+3.  **빌드 미리보기**:
+    ```bash
+    npm run build
+    npm run preview      # serve dist/
+    ```
 
 
